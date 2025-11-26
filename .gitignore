@@ -1,0 +1,32 @@
+# Virtual Environment (DO NOT push this!)
+venv/
+vnv/
+
+# Environment Variables (secrets)
+.env
+
+# Python package metadata
+FLIPKART_RECOMMENDER.egg-info/
+*.egg-info/
+
+# Byte code and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build and distribution
+dist/
+build/
+*.whl
+*.egg
+
+# Logs and local configs
+*.log
+*.sqlite3
+.DS_Store
+
+# IDE / Editor configs (optional but recommended)
+.vscode/
+.idea/
+*.swp
